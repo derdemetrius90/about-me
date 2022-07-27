@@ -1,0 +1,150 @@
+
+@font-face {
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-family: "Roboto Regular";
+}
+body {text-align: center;}
+.name-span {
+    font-weight: bold;
+    cursor: zoom-out;
+}
+.div-header {
+    display: flex;
+    height: 40px;
+    background-color: rgba(202, 213, 219, 0.922);
+    height: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+.div-title {
+
+    background-color:rgba(137, 43, 226, 0.287);
+    height: 150px;
+    width: 600px;      
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 0px;
+
+
+
+}
+.nav {
+    background-color: #00ff00; padding: 10px 10px 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    margin-bottom: 0px;
+      
+    
+}
+.nav:hover {
+    background-color: aquamarine;
+}
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 400%;
+    text-align: center;
+}
+h2#uber
+ {
+    text-decoration: solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+    text-align: left;
+    padding-inline-start: 40px;
+    margin-bottom: 10px;
+       
+}
+.list-about-me
+{
+   font-size: large; 
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgb(0, 0, 0);
+   text-align: left;
+   list-style: none;
+    border-left: 5px solid chocolate;
+   padding-left: 10px;
+   color: rgb(110, 110, 110);
+   margin-top: 30px;
+
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1 {
+    margin-top: 0px;
+}
+.div-about {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(100, 148, 237, 0.212);
+    height: 830px;
+    width: 580px;
+    z-index: -1;
+    padding: 10px;
+}
+img#dimafoto {
+    width: 500px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.gallery {
+    box-shadow: 5px 5px 10px grey;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 300px;
+    display: flex;
+    align-items:center; 
+}
+
+.gallery > img {
+    width: 200px;
+}
+
+.gallery > img:nth-of-type(-n+3) { 
+    align-self:flex-start; 
+}
+
+.gallery > img:nth-of-type(n+7) { 
+    align-self:flex-end; 
+}
+
+.item-1 {
+    background-color: rgb(161, 48, 48);
+}
+
+.item-2 {
+    background-color: rgb(49, 163, 68);
+}
+
+.item-3 {
+    background-color: rgb(34, 32, 180);
+}
+
+.item-4 {
+    background-color: rgb(207, 219, 29);
+}
+
+.item-5 {
+    background-color: rgb(175, 52, 165);
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 2vw;
+}
+
+h2#uber {
+    color:aqua;
+    background-color:black;
+}
